@@ -40,4 +40,6 @@ setup(
         'Bug Reports': 'https://github.com/jholtmann/BitTorrent-Forensics/issues',
         'Source': 'https://github.com/jholtmann/BitTorrent-Forensics/tree/master/btf',
     },
+    test_suite='nose2.collector.collector',
+    tests_require=['nose2']
 )
